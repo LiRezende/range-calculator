@@ -17,11 +17,15 @@
         </div>
         <div class="container-person">
             <div>
-                R$ 80,00
+                <p>R$ <span class="current-value-person">20</span>,00</p>
             </div>
-            <span>
-                Arraste para o lado
-            </span>
+            <div>
+                <div class="slider-container">
+                    <input type="range" min="20" max="1000" value="20" id="range-calculator" class="slider-calculator">
+                </div>
+                <span>Arraste para o lado</span>
+                <p class="person-savings">Economia R$ 20,00</p>
+            </div>
         </div>
 
         <div class="container-company">
